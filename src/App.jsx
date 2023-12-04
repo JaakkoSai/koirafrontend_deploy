@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <CssBaseline /> {/* Normalize the styles */}
+      <NavigationBar />
       <Router>
         <Routes>
           <Route path="/tuotteet" element={<Tuotelista />} />
