@@ -35,7 +35,7 @@ export default function Rekisterointi({ fetchTuotteet }) {
       return;
     }
 
-    fetch("http://softala.haaga-helia.fi:8075/api/kayttajat", {
+    fetch("https://softala.haaga-helia.fi:8075/api/kayttajat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
