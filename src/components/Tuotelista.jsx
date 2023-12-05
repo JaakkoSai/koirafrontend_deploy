@@ -70,7 +70,7 @@ const Tuotelista = () => {
   const gridRef = useRef();
 
   const fetchTuotteet = () => {
-    fetch("https://softala.haaga-helia.fi:8075/api/tuotteet")
+    fetch("http://softala.haaga-helia.fi:8075/api/tuotteet")
       .then((response) => {
         if (!response.ok)
           throw new Error("Something went wrong: " + response.statusText);
